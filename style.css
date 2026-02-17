@@ -28,3 +28,19 @@ input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
 @media (max-width: 768px) {
     .nav-links { display: none; } /* Simplified for this example */
 }
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
